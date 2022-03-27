@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+.container{
+    margin: 0 auto;
+}
+.navbar{
+    background-color: #DD1C1A;
+    color: #ffffff;
+    justify-content: end;
+    padding: 0;
+}
+
+.navbar ul{
+    list-style-type: none;
+    display: flex;
+    margin: 3px;
+    padding: 0;
+    gap: 15px;
+}
+
+h2 {
+    margin-top: 25px;
+}
+
+img{
+    width: 1320px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* BOOTSTRAP*/ 
+
+.container__form{
+    display: grid;
+    grid-column: 2px;
+}
+
+
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.form-control{
+    width: 270px;
+    display: inline-block;
+    margin: 5px;
+}
+
+.form-select{
+    width: 150px;
+    display: block;
+}
+
+input.form-control.form-control-sm{
+    margin: 0;
+}
+
+input.form-control{
+    margin: 10px;
+}
+
+.col{
+    flex: 0;
+}
+
+div.col {
+    padding: 0;
+}
+
+
+
+input.form-control {
+    margin: 12px;
+}
+
+.col .form-control{
+    margin: 0;
+}
+
+
+
+.cuestion{
+    display: flex;
+}
+
+.cuestion_two{
+    display: flex;
+}
+
+.cuestion .form-check{
+    display: inline;
+    margin: 5px;
+}
+
+.cuestion_two .form-check{
+    display: inline;
+    margin: 5px;
+}
+
+p{
+    margin-top: 6px;
+}
+
+
+
+
+
+
+
+footer{
+    background-color: #DD1C1A;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer p{
+    margin: 0;
+}
